@@ -1,0 +1,151 @@
+body {
+    background-color: #FFE4E1;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 130%;
+    color: rgb(63, 80, 35);
+    margin: 0 auto;
+    height: 3300px;
+    width: 80%;
+    min-width: 320px;
+}
+
+#ylareuna {
+    box-sizing: border-box;
+    position: relative;
+    height: 2%;
+}
+
+#ylin {
+    position: relative;
+    height: 4%;
+    width: 50%;
+    margin-left: 25%;
+    box-sizing: border-box;
+}
+
+    #talokuva {
+        width: 120px;
+        position: absolute;
+        right: 0;
+    }
+
+h1 {
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 90%;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    font-family: 'Rampart One', cursive;
+    color: rgb(43, 54, 24);
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 90%;
+    font-family: 'Special Elite', cursive;
+    color: rgb(43, 54, 24);
+    padding: 3%;
+}
+
+h3 {
+    font-family: 'Rampart One', cursive;
+    font-size: 150%;
+    color: rgb(43, 54, 24);
+}
+
+#kerrokset {
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+}
+
+    #info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffd0d0;
+        padding: 3%;
+        border: 1px solid rgb(63, 80, 35);
+    }
+
+    #ikkuna {
+        margin-top: 3%;
+        width: 60%;
+        float:right;
+        right: 8%;
+        position: relative;
+    }
+
+#remontit {
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+}
+
+    #ruokasali, #keskikerros2, #ylakerta, #kellari, #eteinen, #wc {
+        padding-top: 2%;
+        display: flex;
+        align-items: center;
+    }
+
+        #ruokasali1, #ruokasali3, #keskikerros, #varit, #makkari {
+            width: 96%;
+        }
+
+        #ruokasali2, #aula1, #aula2, #laatat {
+            width: 81%;
+        }
+
+        #eteinen1, #eteinen2, #laatikot {
+            width: 72%;
+        }
+        #wc1, #wc2 {
+            width: 60%;
+        }
+
+    #loppu {
+        background-color: #ffd0d0;
+        
+        position: relative;
+        width: 75%;
+        margin: 2% auto;
+        padding: 2%;
+        border: 1px solid rgb(63, 80, 35);
+    }
+
+    #alin {
+        height: 2%;
+    }
+
+    @media screen and (max-width: 1050px ) {
+    
+        #ikkuna {
+            float: none;
+            right: 0%;
+            width: 40%;
+        }
+
+        #info, #ruokasali, #keskikerros2, #ylakerta, #kellari, #eteinen, #wc {
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        #ruokasali1, #ruokasali3, #keskikerros, #varit, #makkari, #ruokasali2, #aula1, #aula2, #laatat,  #eteinen1,
+        #eteinen2, #laatikot, #wc1, #wc2 {
+            width: 60%;
+        }
+
+    }
+
+    @media screen and (max-width: 540px ) {
+        body {
+            width: 90%;
+
+        }
+
+        #loppu, #ruokasali1, #ruokasali3, #keskikerros, #varit, #makkari, #ruokasali2, #aula1, #aula2, #laatat,  #eteinen1,
+        #eteinen2, #laatikot, #wc1, #wc2 {
+            width: 90%;
+        }
+    }
